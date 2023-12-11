@@ -79,7 +79,7 @@ export interface SendbirdConfig {
   isREMUnitEnabled?: boolean;
 }
 
-export interface SendbirdProviderProps extends CommonUIKitConfigProps, React.PropsWithChildren {
+export interface SendbirdProviderProps extends CommonUIKitConfigProps, React.PropsWithChildren<{}> {
   appId: string;
   userId: string;
   accessToken?: string;
